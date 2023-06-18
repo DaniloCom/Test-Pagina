@@ -17,8 +17,7 @@ body {
     .Container{
         display: block;
         max-width: 1200px;
-        margin: 20px auto;
-        padding: 45px;
+        margin: 80px 
         
     }
 
@@ -212,7 +211,9 @@ line-height: 40px;
        }
        
     }
-    
+  
+        
+   
     @media only screen and (max-width: 412px) {
         
 
@@ -242,8 +243,8 @@ line-height: 40px;
         }
         .Testo3 p{
 
-            font-size: 12px;
-            line-height: 1.5;
+            font-size: 10px;
+            line-height: 1.7;
             
             
             
