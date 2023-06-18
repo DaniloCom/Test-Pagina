@@ -99,6 +99,7 @@ margin: 2px;
         /* Modifica lo stile del rettangolo per dispositivi mobili */
         .rectangle {
           height: 130px; /* Modifica l'altezza del rettangolo per dispositivi mobili */
+          max-width: 100%;
         }
         .Testo h2 {
             margin-left: 20px;
@@ -115,11 +116,10 @@ margin: 2px;
             margin-top: 300px;
 
         }
-        body{
-        overflow-x: hidden;
-        }
-       
-      }
+       .header{
+        max-width: 100%;
+       }
+    }
     
  
     
