@@ -108,12 +108,15 @@ margin: 2px;
         .Testo2 p{
             top: 290px;
             font-size: 20px;
-            left: 13px;
+            left: 8px;
         }
 
         img{
-            margin-top: 350px;
+            margin-top: 300px;
 
+        }
+        body{
+        overflow-x: hidden;
         }
        
       }
