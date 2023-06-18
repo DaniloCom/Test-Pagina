@@ -14,6 +14,14 @@ body {
     
     }
 
+    .Container{
+        display: block;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 45px;
+        
+    }
+
     html{
 
         display: block;
@@ -41,27 +49,14 @@ body {
         
         
       }
+      .Immagine3{
+        margin-top: 140px;
+      }
      
     
     
     
-    header h1 {
-    
-        background-color: #0B1B2B;
-    
-        text-decoration: none;
-    
-        color: #fffdfd;
-    
-        text-align: left;
-    
-        font-size: 35px;
-    
-        padding: 40px;
-    
-        margin: 0
-    
-    }
+      
     
  .Testo h2{
         
@@ -100,7 +95,6 @@ margin: 2px;
 .Testo3 p{
 
 position: absolute;
-width: 100%;
 
 font-family: 'Mukta';
 font-style: normal;
@@ -111,6 +105,30 @@ line-height: 50px;
 
 }
 
+.Testo4 p{
+
+    
+    width: 100%;
+    
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 0.9;
+  
+    
+    
+    }
+
+    .Testo5 p{
+
+        font-family: 'Mukta';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+    }
+    
 
 
 
@@ -142,6 +160,11 @@ line-height: 50px;
           margin: auto;
           padding: auto;
         }
+        .Container{
+
+            margin: 0;
+            padding: 20px;
+        }
         .Testo h2 {
             margin-left: 20px;
             font-size: 90px;
@@ -155,10 +178,23 @@ line-height: 50px;
         .Testo3 p {
             font-size: 15px;
             line-height: 1.7;
+            
            
             
             }
 
+            .Testo4 p {
+                font-size: 15px;
+                line-height: 1.2;
+               
+               
+                
+                }
+        .Testo5 p {
+
+            font-size: 15px;
+            line-height: 1.5;
+        }
         
 
         img{
@@ -168,6 +204,9 @@ line-height: 50px;
         .Immagine2{
             margin-top: 350px;
         }
+        .Immagine3{
+            margin-top: 50px;
+        }
        .header{
         max-width: 100%;
        }
@@ -175,6 +214,7 @@ line-height: 50px;
     }
     
     @media only screen and (max-width: 412px) {
+        
 
         html,body{
             max-width: 100%;
@@ -207,6 +247,24 @@ line-height: 50px;
             
             
             
+        }
+        .Container{
+
+            margin: 0;
+            padding: 10px;
+        }
+        .Testo4 p{
+
+            font-size: 12px;
+            line-height: 1.5;
+            
+            
+            
+        }
+
+        .Testo5 p{
+            font-size: 12px;
+            line-height: 1.5;
         }
         .Immagine2{
             margin-top: 280px;
