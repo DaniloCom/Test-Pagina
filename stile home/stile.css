@@ -1,0 +1,524 @@
+
+
+body {
+   background: #fffdfd;
+   display: block;
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+img {
+   max-width: 100%;
+   height: 100%;
+   display: block;
+}
+header h1 {
+   font-size: 100px;
+   padding: 50px;
+   background-color: #0B1B2B;
+   text-decoration: none;
+   color: #fffdfd;
+   text-align: center;
+   margin: 0px;  
+}
+
+
+footer {
+   background: #0B1B2B;/* Da fare il responsile e da mettere delle critte */
+   padding: 25px;
+   font-size: 50px;
+   margin: 0;
+}
+footer h5{
+   color: #ffffff;
+   font-size: 50px;
+   background-color: #0B1B2B;
+}
+.hero {
+   position: relative;
+}
+
+.hero img {
+   max-height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.text {
+   max-width: 1450px;
+   margin: auto;
+   padding: 0 16px;
+   left: 50px;
+}
+
+.hero h2 {/* Bisogna sistemare la scritta responsile  */
+   font-size: 35px;
+   color: rgb(255, 255, 255); 
+   position: absolute;
+   text-align: center;
+   top: 580px;
+   z-index: 100;
+   margin: 0;
+   bottom: 20px;
+   font-family: 'Heebo';
+}
+.hero h1 {/* Bisogna sistemare la scritta responsile */
+   font-size: 30px; 
+   color: rgb(255, 255, 255);
+   position: absolute;
+   text-align: center;
+   font-style: mixed;
+   top: 630px;
+   z-index: 100; 
+   margin: 0;
+   font-family: 'Heebo';
+}
+.hero p {/* Bisogna sistemare la scritta responsile Mukta */
+   font-size: 20 px;
+   position: absolute;
+   color: rgb(255, 255, 255);
+   top: 680px;
+   z-index: 100;
+   margin: 0;
+   font-family: 'Mukta';
+   font-style: mixed;
+   
+}
+.hero0 {
+   position: relative;
+}
+
+.hero0 img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.hero0 .Immagi :before {
+   content: "";
+   background-color: rgba(255, 247, 0, 0.4);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text0 {
+   max-width: 10px;
+   margin: 0;
+   padding: 0 16px;
+
+}
+
+.hero0 h2 {/* Bisogna acentrare la scritta */
+   font-size: 50px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   z-index: 100;
+   margin: 0;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+}
+.hero1 {
+   position: relative;
+}
+
+.hero1 img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.hero1 .Immagi :before {
+   content: "";
+   background-color: rgba(184, 16, 4, 0.286);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text1 {
+   max-width: 10px;
+   margin: auto;
+   padding: 0 16px;
+}
+
+.hero1 h2 {/* Bisogna acentrare la scritta */
+   font-size: 50px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   z-index: 100;
+   margin: 0;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+}
+
+.hero2 {
+   position: relative;
+}
+
+.hero2 img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.hero2 .Immagi :before {
+   content: "";
+   background-color: rgba(0, 2, 33, 0.4);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text2 {
+   max-width: 10px;
+   margin: auto;
+   padding: 0 16px;
+}
+
+.hero2 h2 {/* Bisogna acentrare la scritta */
+   font-size: 50px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   z-index: 100;
+   margin: 0;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+}
+
+.hero3 {
+   position: relative;
+}
+
+.hero3 img {
+   max-height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.hero3 .Immagi :before {
+   content: "";
+   background-color: rgba(3, 89, 3, 0.4);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text3 {
+   max-width: 10px;
+   margin: auto;
+   padding: 0 16px;
+}
+
+.hero3 h2 {/* Bisogna acentrare la scritta */
+   font-size: 50px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   z-index: 100;
+   margin: 0;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+}
+       
+@media screen and  (max-width: 500px) {
+    img {
+       width:100% ;
+       height:100%;
+   }
+   footer {
+       padding: 15px;
+       font-size: 15px;
+   }
+   header h1 {
+       font-size: 40px;
+       padding: 40px;
+   }
+   .hero h2{
+   font-size: 40px;
+   }
+   .hero1 h2{
+       font-size: 40px;
+       }
+   .hero2 h2{
+       font-size: 40px;
+       }
+   .hero h2{
+      font-size: 12px;
+      top: 160px;
+   } 
+  .hero h1{
+      font-size: 12px;
+      top: 180px;
+   } 
+   .hero p{
+      font-size: 12px;
+      top: 200px;
+   }    
+     
+
+}
+           
+@media screen and  (max-width: 300px) {
+ img {
+    width:100% ;
+    height:100%;
+}
+footer {
+   padding: 15px;
+   font-size: 15px;
+}
+header h1 {
+    font-size: 40px;
+    padding: 40px;
+}
+.hero h2{
+font-size: 40px;
+}
+.hero1 h2{
+    font-size: 40px;
+    }
+.hero2 h2{
+    font-size: 40px;
+    }
+    .hero3 h2{
+        font-size: 40px;
+        }
+       .hero h2{
+      font-size: 12px;
+      top: 160px;
+   } 
+  .hero h1{
+      font-size: 12px;
+      top: 190px;
+   } 
+   .hero p{
+      font-size: 12px;
+      top: 220px;
+   }
+   .hero h2{
+      font-size: 9px;
+      top: 160px;
+   } 
+  .hero h1{
+      font-size: 9px;
+      top: 70px;
+   } 
+   .hero p{
+      font-size: 9px;
+      top: 190px;
+   }   
+    } 
+
+/*IDER 2*/
+.e1 h1 {
+   font-size: 19px;
+   padding: 19px;
+   background-color:  #0B1B2B;
+   text-decoration: none;
+   color: #ffffff;
+   text-align: center;
+}
+nav ul {
+   margin:0;
+   padding: 0;
+   list-style-type: none;
+   display: flex;
+   gap: 150px;/*responsile*/
+}
+
+nav ul ul{
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+}
+
+nav ul li{
+position: relative;
+float: left;
+
+}
+nav ul li:hover ul{ display: block;}
+
+nav ul li li{
+ position: relative;
+ float: none;
+ width: 100%;
+ border: none;
+}
+
+nav ul li a{
+   display: block;
+   text-decoration: none;
+   color: #000000;
+   padding: 17px 17px;
+   font-size: 20px;/*responsile*/
+   font-family: 'Bebas Neue';
+   
+}
+nav li a {border-bottom: solid 2px#f93200;}
+
+nav ul li:hover a{
+   margin-top: 3px;
+   background: #ff0000;
+   color: #fffdfd;
+   text-decoration: none;
+   transition: 0.5s;
+}
+/*FINE IDER 2 COD*/
+/*Css Pagina gemplay*/  
+
+
+.rectangle{
+   position: absolute;
+    width: 100%;
+    height: 280px;
+    background-color: rgba(1, 0, 38, 1)
+    }
+.tsc h2{
+   font-size: 190px;
+   color: #fffdfd;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+   font-weight: 0px;
+   letter-spacing: 0.025em;
+   margin-left: 0px;
+   margin: 20px 5px 0 0;
+}
+image
+image{/*Sostitutivo img*/
+   display: block;
+   width: 90%;
+   height: auto;
+   margin: 0 auto;
+   margin-top: 700px;
+} 
+.frame image{
+   padding: 8px;
+   border: 3px solid;
+   border-color:rgba(204, 160, 75, 1);
+}
+/*Mancha immagine2*/
+
+.Immagine3{
+   margin-top: 140px;
+ }
+
+ .Testo2 p{
+position: absolute;
+width: 100%;
+top: 620px;
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 35px;
+margin: 2px;
+}
+
+.Testo3 p{
+   position: absolute;
+   width: 100%;
+   font-family: 'Mukta';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 50px;
+   }
+ 
+   .Testo4 p{
+      width: 100%;
+      font-family: 'Mukta';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 0.9;
+      }
+.Testo5 p{
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+}
+
+footer {
+   background: #0B1B2B;
+}
+
+.c-text {
+color: rgba(255, 168, 0, 1);
+font-weight: bold;
+}
+
+/* Fine Css Gamplay */       
+@media only screen and (max-width: 600px) {
+   /* Modifica lo stile del rettangolo per dispositivi mobili */
+   .e1 h1{
+      font-size: 10px;
+      padding: 10px;   
+   }
+   nav ul {
+      gap: 3px;/*responsile*/
+   }
+   nav ul li a{
+    font-size: 10px;/*responsile*/
+    padding: 10px 10px;
+    color: #000000;
+   }
+
+}    
+/*Storia Css*/
+.tsc1 h2{ 
+   font-size: 190px;
+   color: #fffdfd;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+   font-weight: 0px;
+   letter-spacing: 0.025em;
+   margin-left: 0px;
+   margin: 20px 5px 0 0;
+}
+/*CSS ESPLORAZIONE*/
+.tsc2 h2{ 
+   font-size: 190px;
+   color: #fffdfd;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+   font-weight: 0px;
+   letter-spacing: 0.025em;
+   margin-left: 0px;
+   margin: 20px 5px 0 0;
+}
+/*CSS GDR*/
+.tsc3 h2{ 
+   font-size: 190px;
+   color: #fffdfd;
+   font-family: 'Bebas Neue';
+   font-style: normal;
+   font-weight: 0px;
+   letter-spacing: 0.025em;
+   margin-left: 0px;
+   margin: 20px 5px 0 0;
+}
